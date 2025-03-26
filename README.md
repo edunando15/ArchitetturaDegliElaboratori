@@ -1,2 +1,1 @@
-# ArchitetturaDegliElaboratori
-Repository for the Computer Architecture course, held by professor Massimo Trojani. A.Y. 2021/2022, University of Camerino.
+Two projects were developed for the exam. The first consisted in interpretating a custom protocol, simulating an IR sender. The second involved the use of an IR sender to analyse the message.
