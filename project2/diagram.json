@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "author": "Eduardo Tiano",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-arduino-nano",
+      "id": "nano",
+      "top": 38.32,
+      "left": 1.59,
+      "rotate": 270,
+      "attrs": {}
+    },
+    { "type": "wokwi-ir-receiver", "id": "ir1", "top": -119.86, "left": 47.49, "attrs": {} }
+  ],
+  "connections": [
+    [ "nano:GND.2", "ir1:GND", "black", [ "h-21.35", "v-0.84" ] ],
+    [ "nano:5V", "ir1:VCC", "red", [ "h0" ] ],
+    [ "nano:2", "nano:4", "green", [ "h0" ] ],
+    [ "ir1:DAT", "nano:2", "gold", [ "v0" ] ]
+  ]
+}
